@@ -1,0 +1,32 @@
+.accordion {
+  &__title {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  &__content {
+    margin-top: 30px;
+    padding: 10px 30px;
+
+    &--question {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 22px;
+      font-weight: 500;
+      padding: 15px;
+      background-color: #6084e9;
+      color: #fff;
+    }
+
+    &--icon {
+      transition: transform 0.5s;
+    }
+
+    &--answer {
+      border: 1px solid #ccc;
+      border-radius: 0 0 8px 8px;
+    }
+  }
+}
